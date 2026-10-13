@@ -1,0 +1,103 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { profile } from "../data/portfolio";
+import { articles } from "../data/articles";
+import { writing, posts, postArchiveInfo } from "../data/writing";
+const base = import.meta.env.BASE_URL;
+const filters = [
+  { id: "all", label: "Everything", count: writing.length },
+  { id: "article", label: "Articles", count: articles.length },
+  { id: "post", label: "Original posts", count: posts.length },
+];
+---
+
+<Layout title="Writing on AI, Leadership & Customer Solutions | Ritwick Dutta" description="Explore Ritwick Dutta's published LinkedIn articles and original posts on enterprise AI, agentic systems, architecture, and leadership." pageType="CollectionPage">
+  <section class="container page-heading" id="top">
+    <a class="breadcrumb" href={base}><span aria-hidden="true">&larr;</span>Back to home</a>
+    <p class="eyebrow">ARTICLES FIRST. IDEAS THAT TRAVEL.</p>
+    <h1>Thinking in public.<br /><em>Collected in one place.</em></h1>
+    <p class="page-intro">{articles.length} published articles on enterprise AI, agentic systems, and leadership. A supporting archive of {posts.length} original posts stays within the confirmed 2017+ window.</p>
+  </section>
+  <section class="container archive-section" aria-label="Published writing" data-writing-archive>
+    <div class="archive-toolbar" data-writing-controls hidden>
+      <div class="filter-group" role="group" aria-label="Filter writing">
+        {filters.map((filter) => <button class="filter-button" data-writing-filter={filter.id} aria-pressed={filter.id === "article" ? "true" : "false"} aria-controls="writing-grid">{filter.label}<span>{filter.count}</span></button>)}
+      </div>
+      <label class="archive-search"><span class="sr-only">Search writing titles, summaries, and topics</span><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" /><path d="m13 13 4 4" /></svg><input type="search" data-writing-search placeholder="Search ideas, topics, or titles..." autocomplete="off" /></label>
+    </div>
+    <div class="archive-info">
+      <p data-writing-count role="status" aria-live="polite">{writing.length} entries</p>
+      <p>Original writing only. No likes or reposts. Historical posts are archived, not current hiring notices. Verified October 12, 2026; not a live sync.</p>
+    </div>
+    <div class="archive-grid" id="writing-grid">
+      {writing.map((entry) => (
+        <article class="archive-card" data-writing-card data-kind={entry.kind} data-search={[entry.title, entry.summary, ...entry.topics].join(" ")}>
+          <div class="project-meta"><span class="type-badge">{entry.kind === "article" ? "Article" : "Archived original post"}</span><span>LinkedIn</span>{entry.readTime && <span>{entry.readTime}</span>}{entry.ageAtCapture && <span>{entry.ageAtCapture} ago at capture</span>}</div>
+          <h2><a href={entry.url} target="_blank" rel="noopener noreferrer">{entry.title}<span class="sr-only"> (opens in a new tab)</span></a></h2>
+          <p>{entry.summary}</p>
+          <ul class="tags" aria-label="Topics">{entry.topics.map((topic) => <li>{topic}</li>)}</ul>
+          <a class="text-link" href={entry.url} target="_blank" rel="noopener noreferrer">Read the original<span class="sr-only">: {entry.title} (opens in a new tab)</span><span aria-hidden="true">&nearr;</span></a>
+        </article>
+      ))}
+    </div>
+    <div class="archive-empty" data-writing-empty hidden><h2>No matching writing.</h2><p>Try a broader topic or switch back to Everything.</p></div>
+    <div class="archive-load-more"><button class="button button-outline" data-writing-more hidden>Show more writing<span aria-hidden="true">+</span></button></div>
+    <div class="archive-source">
+      <div><p>{postArchiveInfo.coverage}</p>{postArchiveInfo.moreAvailableAtCapture && <p>More activity remained available when this snapshot was captured.</p>}</div>
+      <div><a class="text-link" href={profile.linkedinArticles} target="_blank" rel="noopener noreferrer">Articles on LinkedIn<span aria-hidden="true">&nearr;</span><span class="sr-only"> (opens in a new tab)</span></a><a class="text-link" href={profile.linkedinPosts} target="_blank" rel="noopener noreferrer">Latest activity<span aria-hidden="true">&nearr;</span><span class="sr-only"> (opens in a new tab)</span></a></div>
+    </div>
+  </section>
+  <script>
+    import { isWritingFilter, matchesSearch, resultLabel, type WritingFilter } from "../lib/filters";
+    const archive = document.querySelector<HTMLElement>("[data-writing-archive]");
+    if (!archive) throw new Error("The writing archive is missing.");
+    const controls = archive.querySelector<HTMLElement>("[data-writing-controls]");
+    const search = archive.querySelector<HTMLInputElement>("[data-writing-search]");
+    const count = archive.querySelector<HTMLElement>("[data-writing-count]");
+    const empty = archive.querySelector<HTMLElement>("[data-writing-empty]");
+    const more = archive.querySelector<HTMLButtonElement>("[data-writing-more]");
+    const cards = Array.from(archive.querySelectorAll<HTMLElement>("[data-writing-card]"));
+    if (!controls || !search || !count || !empty || !more) throw new Error("Writing archive controls are missing.");
+    let activeFilter: WritingFilter = "article";
+    const pageSize = 12;
+    let limit = pageSize;
+    let matching: HTMLElement[] = [];
+
+    function updateArchive() {
+      if (!count || !search || !empty || !more) throw new Error("Writing archive controls are missing.");
+      matching = cards.filter((card) => {
+        const kind = card.dataset.kind;
+        if (!kind || !isWritingFilter(kind) || kind === "all") throw new Error("A writing entry has an unsupported kind.");
+        return (activeFilter === "all" || activeFilter === kind) && matchesSearch(card.dataset.search || "", search.value);
+      });
+      const visible = new Set(matching.slice(0, limit));
+      cards.forEach((card) => { card.hidden = !visible.has(card); });
+      count.textContent = matching.length > limit
+        ? `Showing ${limit} of ${resultLabel(matching.length, "entry", "entries")}`
+        : resultLabel(matching.length, "entry", "entries");
+      empty.hidden = matching.length !== 0;
+      more.hidden = matching.length <= limit;
+    }
+
+    controls.hidden = false;
+    controls.addEventListener("click", (event) => {
+      if (!(event.target instanceof Element)) return;
+      const button = event.target.closest<HTMLButtonElement>("[data-writing-filter]");
+      if (!button) return;
+      const filter = button.dataset.writingFilter;
+      if (!filter || !isWritingFilter(filter)) throw new Error("Unsupported writing filter.");
+      activeFilter = filter;
+      limit = pageSize;
+      controls.querySelectorAll<HTMLButtonElement>("[data-writing-filter]").forEach((control) => control.setAttribute("aria-pressed", String(control === button)));
+      updateArchive();
+    });
+    search.addEventListener("input", () => { limit = pageSize; updateArchive(); });
+    more.addEventListener("click", () => {
+      const previousLimit = limit;
+      limit += pageSize;
+      updateArchive();
+      matching[previousLimit]?.querySelector<HTMLAnchorElement>("h2 a")?.focus({ preventScroll: true });
+    });
+    updateArchive();
+  </script>
+</Layout>

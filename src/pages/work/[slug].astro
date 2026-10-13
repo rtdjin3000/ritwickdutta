@@ -1,0 +1,50 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProjectVisual from "../../components/ProjectVisual.astro";
+import { projects, type Project } from "../../data/portfolio";
+
+export function getStaticPaths() {
+  return projects.map((project) => ({ params: { slug: project.slug }, props: { project } }));
+}
+
+interface Props { project: Project; }
+const { project } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const projectIndex = projects.findIndex((item) => item.slug === project.slug);
+const next = projects[(projectIndex + 1) % projects.length];
+if (!next) throw new Error("A related project is required.");
+---
+
+<Layout title={`${project.subtitle} | Ritwick Dutta`} description={project.description}>
+  <section class="container page-heading" id="top">
+    <a class="breadcrumb" href={`${base}#work`}><span aria-hidden="true">&larr;</span>Back to selected work</a>
+    <div class="brief-heading">
+      <div>
+        <p class="eyebrow">PROJECT BRIEF / {String(projectIndex + 1).padStart(2, "0")}</p>
+        <h1>{project.title}</h1>
+        <p class="page-intro">{project.subtitle}</p>
+        <div class="brief-meta"><span class="type-badge">{project.type}</span><span>{project.year}</span><span aria-hidden="true">/</span><span>Public repository</span></div>
+        <ul class="tags" aria-label="Technologies and themes">{project.tags.map((tag) => <li>{tag}</li>)}</ul>
+      </div>
+      <ProjectVisual variant={project.visual} />
+    </div>
+  </section>
+  <div class="container brief-layout">
+    <div>
+      <section class="brief-section"><h2>The context</h2><p>{project.context}</p></section>
+      <section class="brief-section"><h2>The approach</h2><ul>{project.approach.map((item) => <li>{item}</li>)}</ul></section>
+      <section class="brief-section"><h2>The leadership connection</h2><p>{project.demonstrates}</p></section>
+      <section class="brief-section"><h2>What to look at</h2><div class="review-list">{project.review.map((item) => <div><h3>{item.label}</h3><p>{item.text}</p></div>)}</div></section>
+    </div>
+    <aside class="brief-sidebar">
+      <p class="eyebrow">SCOPE & EVIDENCE</p><h2>See the actual work.</h2>
+      <p>{project.status}</p>
+      <a class="button button-dark" href={project.repository} target="_blank" rel="noopener noreferrer">View repository<span aria-hidden="true">&nearr;</span><span class="sr-only"> (opens in a new tab)</span></a>
+      <a class="text-link" href={project.source} target="_blank" rel="noopener noreferrer">Read the source README<span aria-hidden="true">&nearr;</span><span class="sr-only"> (opens in a new tab)</span></a>
+    </aside>
+  </div>
+  <div class="container brief-next">
+    <div><p>Continue exploring</p><h2>{next.title}</h2></div>
+    <a class="text-link" href={`${base}work/${next.slug}/`}>Next project<span aria-hidden="true">&rarr;</span><span class="sr-only">: {next.subtitle}</span></a>
+  </div>
+</Layout>

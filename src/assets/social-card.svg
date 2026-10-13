@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f6ef"/>
+  <rect x="56" y="50" width="1088" height="530" rx="24" fill="none" stroke="#d9dfd5" stroke-width="2"/>
+  <circle cx="985" cy="293" r="144" fill="#e5eadf"/>
+  <circle cx="985" cy="293" r="109" fill="none" stroke="#9cab97" stroke-width="2"/>
+  <circle cx="985" cy="293" r="72" fill="#214c40"/>
+  <circle cx="1083" cy="214" r="23" fill="#dc7048"/>
+  <circle cx="866" cy="354" r="16" fill="#b5c1a6"/>
+  <path d="m959 292 19 19 33-38" fill="none" stroke="#f6f6ef" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="111" fill="#214c40" font-family="Arial, sans-serif" font-size="26" font-weight="700">RITWICK DUTTA</text>
+  <text x="96" y="257" fill="#1c2c25" font-family="Georgia, serif" font-size="76">AI leadership.</text>
+  <text x="96" y="354" fill="#1c2c25" font-family="Georgia, serif" font-size="76">Real-world delivery.</text>
+  <text x="98" y="425" fill="#526257" font-family="Arial, sans-serif" font-size="27">Applied AI / Customer solutions / Enterprise adoption</text>
+  <text x="98" y="525" fill="#214c40" font-family="Arial, sans-serif" font-size="25">ritwickdutta.com</text>
+  <text x="940" y="525" fill="#526257" font-family="Arial, sans-serif" font-size="21">Toronto, Canada</text>
+</svg>

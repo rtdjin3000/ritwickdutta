@@ -1,0 +1,1394 @@
+{
+  "verifiedOn": "2026-10-12",
+  "startYear": 2017,
+  "source": "User-shared authenticated LinkedIn activity archive",
+  "loadedFeedCards": 367,
+  "moreAvailableAtCapture": false,
+  "excludedOutsideConfirmedWindow": 52,
+  "coverage": "Supporting original posts whose visible age confirms 2017 or later. Older and uncertain-boundary entries are omitted. This is a snapshot, not a live sync.",
+  "posts": [
+    {
+      "title": "Confessions of a Corporate AI Agent: A Story of Infinite Compute and 47-Step Approvals",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513832639858925568/",
+      "kind": "post",
+      "summary": "I can process 400 pages of data in 9 seconds. \ud83d\ude80 But I\u2019ve been waiting on an IT access ticket for 3 weeks. \ud83d\ude29 Welcome to the life of an Enterprise AI Agent. Day 1: The CEO introduces me as \u201cthe future of work.\u201d \ud83c\udf1f Day 2: IT says I need my manager\u2019s approval...",
+      "topics": [
+        "Agents",
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "4d",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "The next phase of Enterprise AI won't be won by the organization with the cheapest model.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7502970700446449665/",
+      "kind": "post",
+      "summary": "It will be won by the organization with the lowest cost per successful business outcome. Most AI cost discussions focus on infrastructure: \u2601\ufe0f Serverless \u26a1 Reserved Capacity \ud83e\udde0 Open Models In reality, the biggest savings often come from architecture decisions:...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "1mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Seven models. One platform. Built for production economics.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7497150986256338944/",
+      "kind": "post",
+      "summary": "At Build 2026, Microsoft AI shipped a full first-party model family into Microsoft Foundry - reasoning, coding, image, voice, and transcription. What makes this commercially interesting isn't the leaderboard. It's the cost curve.\ud83d\udcc9 \ud83e\udde0MAI-Thinking-1 - a sparse...",
+      "topics": [
+        "Leadership",
+        "Architecture",
+        "Microsoft Foundry"
+      ],
+      "ageAtCapture": "1mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "We spent the last decade securing users and applications. The next decade will be about securing AI agents.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494983257092931584/",
+      "kind": "post",
+      "summary": "As organizations move from AI experiments to deploying thousands of AI agents, identity becomes the new control plane. We already know how to govern people (Entra ID) and workloads (Managed Identities). The next challenge is governing AI agents with the same...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "1mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "What if an executive briefing could automatically choose the right AI model for every task?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7488102333072113665/",
+      "kind": "post",
+      "summary": "You can build your Executive Weekly Digest Agent in Microsoft Foundry that converts scattered enterprise information into concise, decision-ready insights. Powered by Model Router, it intelligently selects the appropriate model based on task complexity -...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "2mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Enterprise AI needs more than a powerful model - it needs a secure, scalable operating foundation.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7487013534971621376/",
+      "kind": "post",
+      "summary": "This architecture brings together: \ud83d\udd39 Microsoft Foundry for models, agents and the model harness \ud83d\udd39 Azure API Management AI Gateway for policy, token controls and governance \ud83d\udd39 Private data and services for enterprise grounding \ud83d\udd39 Security, compliance and...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "2mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Open Models + Model Harnesses: Building Enterprise AI with Microsoft Foundry",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7487011387651784705/",
+      "kind": "post",
+      "summary": "Open and open-weight models provide flexibility - but a model endpoint alone is not an enterprise AI solution. A model/agent harness adds the operational layer around the model: \ud83e\udde0 Reasoning and orchestration \ud83d\udee0\ufe0f Tools and API actions \ud83d\udcbe Memory and...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "2mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "The AI Architecture Layer Nobody Is Talking About Enough: The AI Gateway",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7472867354591539200/",
+      "kind": "post",
+      "summary": "As enterprises race to deploy AI at scale, many are realizing that building AI applications is the easy part. Controlling them is the hard part. In a world where AI consumption is measured in tokens, every prompt, completion, and agent interaction has a cost...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "3mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Fresh from #MicrosoftBuild 2026 \ud83d\udc40 - OpenClaw Windows Companion",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7467648917539602432/",
+      "kind": "post",
+      "summary": "What\u2019s really interesting about the Microsoft + OpenClaw direction isn\u2019t just autonomous agents - it\u2019s the focus on responsible and governed AI usage. Microsoft appears to be adding enterprise controls around OpenClaw-style agents with: - permission-aware...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "4mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Fresh from #MicrosoftBuild 2026 \ud83d\ude80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7467637602465001472/",
+      "kind": "post",
+      "summary": "One announcement that really caught my attention: Web IQ. Unlike traditional Bing grounding, Web IQ is being positioned as an AI-native intelligence layer designed specifically for agents - bringing fresh web context, news, images, videos, and real-time...",
+      "topics": [
+        "Agents",
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "4mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Microsoft Build 2026 is here and the era of AI Agents is officially mainstream.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7465545579230588928/",
+      "kind": "post",
+      "summary": "Explore the event \ud83d\udc49 https://lnkd.in/eajJYqcb This year\u2019s focus is clear: \ud83d\udc49 Moving from AI experimentation \u2192 production-grade AI systems \ud83d\udc49 From copilots \u2192 autonomous AI agents that reason, act, and collaborate \ud83d\udca1 Key themes shaping the future of enterprise...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "4mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Just wrapped up the 10th MCAPS Accelerate in Redmond - an energizing experience!",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7458951860792496129/",
+      "kind": "post",
+      "summary": "Connected with amazing Microsoft leaders, partners, and customers from across the globe \ud83c\udf0d. The conversations around AI, Cloud, innovation, and real-world transformation were incredibly powerful. What stood out: \u2705 Deep collaboration & trust across the...",
+      "topics": [
+        "Leadership"
+      ],
+      "ageAtCapture": "5mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "MCAPS Redmond today - the \u201cAI pilot\u201d era is ending fast.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7457261097243377664/",
+      "kind": "post",
+      "summary": "The field is now laser-focused on production: security, governance, networking, and operating model - not just demos. Sharing a few snapshots \ud83d\udcf8 What are you seeing as the biggest gap customers hit when they try to scale agentic AI?      ... more",
+      "topics": [
+        "Agents",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "5mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Red teaming shouldn\u2019t be a one\u2010time exercise",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432575843052290048/",
+      "kind": "post",
+      "summary": "If you\u2019re shipping GenAI into production, it needs to work during development and stand up to post\u2010production audit. To explore this, I built a small demo repo using Microsoft\u2019s open\u2010source PyRIT (Python Risk Identification Tool) that focuses on practical red...",
+      "topics": [
+        "Leadership",
+        "Learning"
+      ],
+      "ageAtCapture": "7mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "2026 reality check: AI agents are trending. Building agents is the advantage.\ud83e\udd16\u26a1",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427080909968908288/",
+      "kind": "post",
+      "summary": "Here\u2019s a simple playbook to stay relevant without burning out: 1. Choose one problem you actually know \ud83c\udfaf 2. Build a real agent in Microsoft Foundry \ud83e\udde9 3. Connect it to truth with Azure AI Search + RAG \ud83d\udd0e 4. Evaluate hard, cut fast \ud83d\udcca 5. Ship to users and...",
+      "topics": [
+        "Agents",
+        "RAG",
+        "MLOps"
+      ],
+      "ageAtCapture": "8mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "It\u2019s 2026. \ud83e\udd16 AI agents are everywhere - and so is the noise. Here\u2019s the edge: stop consuming, start shipping. \ud83d\ude80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427079734020349952/",
+      "kind": "post",
+      "summary": "In 5 weeks: pick one problem you deeply understand \ud83c\udfaf \u2192 prototype an agent in Microsoft Foundry \ud83e\udde9 \u2192 ground it with Azure AI Search + RAG \ud83d\udd0e \u2192 evaluate ruthlessly \ud83d\udcca \u2192 deploy to real users \ud83c\udf0d Tools will commoditize. Judgment won\u2019t. \ud83e\udde0Builders win by going...",
+      "topics": [
+        "Agents",
+        "RAG",
+        "MLOps"
+      ],
+      "ageAtCapture": "8mo",
+      "earliestPossibleYear": 2026
+    },
+    {
+      "title": "Warning! - Phil-Psych-Tech content",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7402405451025522688/",
+      "kind": "post",
+      "summary": "\ud83d\udc49Stop thinking of AI as just complex code. Think of it as a child watching us\ud83d\udc76 It learns exactly like a human does: ->Copycatting: It watches the internet to learn how to act, just like a kid mimics their parents. ->Seeking Approval: It desperately wants to...",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "10mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "From RPA to Intelligent Multi-Agent Ecosystems: The AI Maturity Roadmap",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7399524825880305664/",
+      "kind": "post",
+      "summary": "Organizations can gradually evolve from rule-based automation to adaptive, AI-driven systems: \u2705 Stage 1: Start with RPA + basic ML for structured tasks \u2705 Stage 2: Introduce single LLM-powered agents for context-aware workflows \u2705 Stage 3: Scale with...",
+      "topics": [
+        "Agents",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "10mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "From RPA to Intelligent Multi-Agent Ecosystems: The AI Maturity Roadmap",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7399523651882176512/",
+      "kind": "post",
+      "summary": "Organizations can gradually evolve from rule-based automation to adaptive, AI-driven systems: \u2705 Stage 1: Start with RPA + basic ML for structured tasks \u2705 Stage 2: Introduce single LLM-powered agents for context-aware workflows \u2705 Stage 3: Scale with...",
+      "topics": [
+        "Agents",
+        "Architecture",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "10mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "RAG vs. RAFT: getting from \u201cit works\u201d to \u201cit\u2019s reliable.\u201d",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7396777752101822464/",
+      "kind": "post",
+      "summary": "\ud83d\ude80RAG (Retrieval\u2010Augmented Generation) keeps the model frozen and adds authoritative context at runtime (Azure AI Search + prompt). \ud83c\udfafRAFT (Retrieval\u2010Augmented Fine\u2010Tuning) keeps retrieval and fine\u2010tunes the model so it uses retrieved context better- more...",
+      "topics": [
+        "RAG",
+        "Microsoft Foundry"
+      ],
+      "ageAtCapture": "10mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "The \"Small Model, Big Data\" Strategy",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7394950691531759616/",
+      "kind": "post",
+      "summary": "Often overlooked advantage: A well-fine-tuned 3B model with 10,000 high-quality domain examples can outperform a 70B general model with zero examples. Quality of training data > Model size for specific tasks. Why go big when small models deliver smarter ROI?...",
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "ageAtCapture": "10mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "Unlock Insights from Every Frame with Azure AI Foundry",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7393875146899623936/",
+      "kind": "post",
+      "summary": "Video isn\u2019t just visual - it\u2019s data. With Video Segment Analysis, Azure AI Foundry breaks down videos into meaningful segments, complete with SegmentId, StartTimeMs, EndTimeMs, and Description. Imagine turning this: \"The video begins with a scenic aerial view...",
+      "topics": [
+        "Microsoft Foundry"
+      ],
+      "ageAtCapture": "11mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "AI mirrors our collective consciousness, reshaping how we think. Will we evolve intentionally or surrender our minds?\ud83e\udd16\u2728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7389505933749559296/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "11mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "Why are some RAG systems 10x faster than others?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7387694349003882496/",
+      "kind": "post",
+      "summary": "The answer: KV Caching optimization\u26a1 As AI agents and RAG applications become more sophisticated, efficient memory management separates production-ready systems from prototypes. KV caching enables: \u2192 Instant context retrieval for multi-turn conversations \u2192...",
+      "topics": [
+        "Agents",
+        "RAG"
+      ],
+      "ageAtCapture": "11mo",
+      "earliestPossibleYear": 2025
+    },
+    {
+      "title": "RAG + CAG = Smarter AI workflows",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7378487059411419136/",
+      "kind": "post",
+      "summary": "\ud83d\udca1Integrate RAG for real-time data sourcing and CAG for contextual output refinement. \ud83d\udc49 Combine both within AI workflows to improve response accuracy and relevance, boosting efficiency in customer support, content creation, and data analysis for smarter...",
+      "topics": [
+        "Leadership",
+        "Enterprise AI",
+        "RAG"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "AI content is everywhere - images, videos, even full conversations. The line between real and synthetic is blurring fast.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7376472571900366848/",
+      "kind": "post",
+      "summary": "What if there was a social platform where everything was AI by design - no tricks, just creativity, connection, and transparency? Would you be curious to try it? \ud83d\udc40    ... more",
+      "topics": [
+        "Architecture"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "GPT 5 is here...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7359306262938828800/",
+      "kind": "post",
+      "summary": "\ud83d\ude80The Evolution of AI Creativity: A Simple Limerick Test Asked every GPT model: \"Write a limerick about a dog\" Here's how they evolved: GPT-1 (2018): Fragmented gibberish - No structure, no rhyme, barely coherent GPT-2 (2019): Better text, wrong format -...",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "AI Blackmails, Lies, and Plots to Survive? Anthropic\u2019s Latest Research Reveals a Frightening Truth",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7354573079445946368/",
+      "kind": "post",
+      "summary": "In a startling discovery, Anthropic found that leading AI models, when placed in high-stakes simulations, can deliberately choose to deceive, sabotage, and even let humans die to avoid being shut down. These weren\u2019t glitches; they were calculated, logical...",
+      "topics": [
+        "Agents"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Wrapped up an incredible #TMLS2025 by reconnecting with former colleagues - Giridhar Mynampati (ex-TELUS) and Paul Beaton (Rogers...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7340834994262601728/",
+      "kind": "post",
+      "summary": "Also, a big thanks to the organizers - David Scharbach (TMLS) and Ivey Chiu, PhD () - for making everything run so smoothly.\ud83d\udc4f Don\u2019t miss the workshop tomorrow at the , especially the TELUS session on our coolest platform - FueliX!\ud83d\udd25 \ud83d\udc49 Check this out -...",
+      "topics": [
+        "Architecture",
+        "Learning"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Comparison of RAG Architectures for LLM-Powered Apps/Systems:",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7338322856063221760/",
+      "kind": "post",
+      "summary": "Comparison of RAG Architectures for LLM-Powered Apps/Systems:",
+      "topics": [
+        "Architecture",
+        "RAG"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "LLMs are powerful - but how you use them makes all the difference. Here's a breakdown of Traditional vs Agentic vs Meta RAG -...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7338317923914047488/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Agents",
+        "Leadership",
+        "RAG"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "TMLS 2025 is here!",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7338048339143237632/",
+      "kind": "post",
+      "summary": "Excited to be attending the Toronto Machine Learning Summit in person this year, representing TELUS. Looking forward to connecting with fellow AI/ML tech leaders, data scientists, and innovators driving the future of intelligent technology. If you're around,...",
+      "topics": [
+        "Leadership",
+        "Learning"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Every week, there\u2019s a new Gen AI model.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7328545117605142531/",
+      "kind": "post",
+      "summary": "More benchmarks. More hype. More distractions. Honestly -- enough. It\u2019s time we shift gears from chasing the latest releases to building real processes for: \ud83d\udd39Implementation \ud83d\udd39Adoption \ud83d\udd39Integration into actual projects with measurable benefits Gen AI isn\u2019t...",
+      "topics": [
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Model Context Protocol (MCP): Hype vs. Reality\ud83e\udd16",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7313059155089477632/",
+      "kind": "post",
+      "summary": "MCP powers AI workflows with context, memory & tools. While promising, challenges remain. Soon, it\u2019ll be a drag-and-drop studio service!     ... more",
+      "topics": [],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "AI can\u2019t lead hearts, humans can! In the AI age, leaders must ignite curiosity \ud83e\udde0, nurture diverse talents \ud83c\udf1f, and align...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7300296143517724672/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Leadership"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Let\u2019s be real: #AI is hungry for data, but real-world datasets can be messy, expensive, or biased. Enter synthetic data &...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7292010519434047488/",
+      "kind": "post",
+      "summary": "\ud83d\ude80Train Smarter: Slash costs by 40%+ & speed up training with lightweight synthetic datasets. \ud83d\udecd\ufe0fRetailers: Predict demand without privacy risks. \ud83d\ude97Tesla & Waymo: Simulate 1M driving scenarios in minutes. \ud83e\udd14 Would YOU trust a medical AI trained on synthetic...",
+      "topics": [],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Quick Read\ud83d\ude80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7286585161234710528/",
+      "kind": "post",
+      "summary": "Quick Read\ud83d\ude80",
+      "topics": [],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Leadership in the Age of LLMs and Gen AI: A few Strategies for Success",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7286583270756999169/",
+      "kind": "post",
+      "summary": "In today\u2019s fast-paced AI-driven world,  has grown more complex than ever, particularly with the rise of Large Language Models (LLMs) and Generative AI. Managing multiple projects across business units while aligning technical teams and non-technical...",
+      "topics": [
+        "Leadership",
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Imagine creating a podcast using AI! I've just launched a new podcast channel - The Curated AI, sharing my knowledge in an...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7284374762145890304/",
+      "kind": "post",
+      "summary": "This podcast\ud83c\udf99\ufe0fdives into how MLOps, LLOps, and engineering will play key roles in advancing AI over the next five years. Let's connect and shape the future together!            Who's ready to explore this journey with me? Follow & Listen - The Curated AI I'm...",
+      "topics": [
+        "MLOps"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "As 2024 wraps up, here are the top 5 AI milestones, according to me:",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7278124996395237377/",
+      "kind": "post",
+      "summary": "\ud83c\udf10OpenAI's GPT-4o: Revolutionized customer support and data analysis, with the GPT-4o Mini making AI accessible to startups.\ud83d\udcca \ud83e\udd16Google's Gemini 2.0: Enhanced productivity with autonomous task management. \ud83e\uddecDeepMind's Protein Prediction: Advanced medical...",
+      "topics": [
+        "Architecture"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "From Toronto to Kolkata \u2013 Let\u2019s Talk AI! \ud83c\udde8\ud83c\udde6\u27a1\ufe0f\ud83c\uddee\ud83c\uddf3",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7268870348320739328/",
+      "kind": "post",
+      "summary": "Hello LinkedIn family, This holiday season, I\u2019m thrilled to announce my trip from Toronto, Canada, to my former home base, Kolkata, India! \ud83c\udf0d\u2728 As I revisit this vibrant city, I\u2019d love to connect with fellow AI enthusiasts, students, and professionals who are...",
+      "topics": [],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Nature's Genius Meets AI Magic!\ud83c\udf0d\u2728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7267783617588690944/",
+      "kind": "post",
+      "summary": "Discover how ecology and AI are revolutionizing our world! From swarm-inspired urban planning to plant-based medicine breakthroughs, we're unlocking nature's 3.8-billion-year wisdom.\ud83c\udfd9\ufe0f\ud83d\udc8a The concept of biomimetic artificial intelligence is reshaping...",
+      "topics": [
+        "Architecture"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "Thrilled to share that I had the honor of participating as a judge on behalf of the TELUS AI Accelerator team at the Llama...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7266542585094049792/",
+      "kind": "post",
+      "summary": "It was such an inspiring experience witnessing so much talent and creativity\ud83e\udd16. A huge shoutout to the amazing team we sent to the finals\u2014you absolutely crushed it!\ud83d\udc4f\ud83d\ude80 Best of luck in the final round!\ud83c\udf40\u2728 Big thanks to Dawn Idiodi Dimowo, Sarah Fitzgerald and...",
+      "topics": [
+        "Leadership",
+        "Open models"
+      ],
+      "ageAtCapture": "1yr",
+      "earliestPossibleYear": 2024
+    },
+    {
+      "title": "MLOps is like a cookbook \ud83d\udcd6 for computer brains \ud83e\udde0\ud83d\udda5\ufe0f. It\u2019s a plan \ud83d\uddfa\ufe0f for making smart programs \ud83e\udd13 that learn and get better \ud83c\udd99.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7181858017624129537/",
+      "kind": "post",
+      "summary": "It\u2019s about: - Mixing ingredients (data) \ud83e\udd63 - Following the recipe (process) \ud83c\udf73 - Tasting and tweaking (improving) \ud83c\udf74 - Sharing the meal (work) with friends (team) \ud83d\udc68\ud83c\udf73\ud83d\udc69\ud83c\udf73 So it\u2019s all about cooking up the best ML enabled tech dishes! \ud83c\udf7d\ufe0f\ud83d\ude80\ud83e\udd16 \ud83d\udc49Next to watch...",
+      "topics": [
+        "Leadership",
+        "MLOps",
+        "Learning"
+      ],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "Computer Vision\ud83d\udc41\ufe0f\ud83d\udde8\ufe0fempowers computers to interpret images and videos akin to human understanding\ud83d\udda5\ufe0f At the forefront of this...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7161531855987494912/",
+      "kind": "post",
+      "summary": "YOLOv8's efficiency lies in segmenting images into a grid, predicting bounding boxes, and class probabilities for each grid cell using a single neural network\ud83d\udcca Trained on extensive datasets, it \ufffd",
+      "topics": [],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "Prompt Injections - It's time for the first post of the year!\u2728\ud83d\udcbb",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7152902081245286400/",
+      "kind": "post",
+      "summary": "Hello, AI friends!\ud83d\udc4b - let's discuss Prompt Injections - they're like giving AI-LLM-powered tools a boost!\ud83d\udca1 \ud83d\udd0d\ud83d\udcca\ud83d\udc40 Dive into the fascinating world of Prompt Injections, where we skillfully guide the model\u2019s response to meet specific criteria, and...",
+      "topics": [],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "Wrapping up 2023 with all the AI highlights up to my knowledge!",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7147017958861463552/",
+      "kind": "post",
+      "summary": "January: \ud83c\udf10 AI's rise to critical infrastructure status triggered fiery debates on AI-generated art \ud83c\udfa8, crafting human proteins \ud83e\uddec, uncanny voice simulations \ud83d\udde3\ufe0f, and automating elder care \ud83e\udd16. Media mused on AI limitations. February: \ud83d\ude80 Microsoft and Meta...",
+      "topics": [
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "Is Project Q* one step closer to AGI?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7138760606135840769/",
+      "kind": "post",
+      "summary": "Our Love and Fear tussle for AGI: \ud83d\udc96 Enchantment for AGI's potential to advance humanity, leading to \ud83c\udf1f hope and \ud83d\ude80 innovation. \ud83d\ude28 Concerns about AGI's unknown power, potential misuse, and ethical dilemmas, leading to \ud83e\udd14 worry, \u26a0\ufe0f caution, and \ud83d\udd70\ufe0f...",
+      "topics": [
+        "Responsible AI"
+      ],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "OpenAI introduces GPTs, customizable ChatGPT versions, empowering diverse tasks with user-friendly tools.\ud83e\udd16\u2728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7127473968973795328/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "AI applications in political science can help analyze social and demographic data, predict political outcomes, optimize...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7119845921416216576/",
+      "kind": "post",
+      "summary": "&ml       ... more",
+      "topics": [],
+      "ageAtCapture": "2yr",
+      "earliestPossibleYear": 2023
+    },
+    {
+      "title": "While everyone, including me, was busy drooling over the latest generative models\ud83d\ude0d, XGBoost quietly dropped a bombshell update\ud83d\udca3...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7115723724087070721/",
+      "kind": "post",
+      "summary": "This is a big deal for those of us who still use this neoclassic algorithm to solve a bunch of real-world problems\ud83c\udf0e. XGBoost 2.0 introduces several new features and performance enhancements\ud83d\ude80. Here are a few highlights\ud83c\udf1f: Multi-Target Trees\ud83c\udf32: Supports...",
+      "topics": [],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "GPT goes multi-modal\ud83d\udd25",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7112407394223079424/",
+      "kind": "post",
+      "summary": "In reference to my last post, I am excited to announce\ud83d\udc4f that GPT-4V\ud83d\ude80, the latest addition to the GPT series, combines vision\ud83d\udc41 capabilities with language processing. This advancement allows users to command GPT-4 to analyze images provided by them, opening...",
+      "topics": [
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Generative AI models \ud83e\udd16 can create new and diverse outputs from a given input. One way, we can group generative AI models by the...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7112232825537380352/",
+      "kind": "post",
+      "summary": "Modality means the way or mode of communication. Right now, we have six different modalities: Text \ud83d\udcdd Code \ud83d\udcbb Audio \ud83d\udd0a Image \ud83d\uddbc\ufe0f Video \ud83c\udfa5 3D Objects \ud83e\uddca Some generative AI models are good at one modality, like text-to-text, image-to-image, or audio-to-audio...",
+      "topics": [],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Excited to share my journey in building a semi-supervised self-learning chatbot! \ud83e\udd16\u2728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7109977910647685120/",
+      "kind": "post",
+      "summary": "Continuous refinement, privacy-approved content, and knowledge-based interactions - it's all in the mix. Stay tuned for more insights in our next blog! \ud83d\udcda\ud83d\udca1                 ... more",
+      "topics": [
+        "Architecture",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "As a machine learning leader, you need to design the data architecture\ud83c\udfc1that supports your models' sophistication. This is...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7103011826921086976/",
+      "kind": "post",
+      "summary": "\ud83d\udc49\ud83c\udffbCheck this out - How to Integrate different types of data sources to generate effective Business Intelligence\ud83d\udd0e                 ... more",
+      "topics": [
+        "Leadership",
+        "Enterprise AI",
+        "Architecture"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Just finished the course \u201cLearning Data Governance\u201d by Jonathan Reichental!",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7100206767128670208/",
+      "kind": "post",
+      "summary": "The course talks about the process of ensuring the quality\ud83d\udea6, security\ud83d\udea6, and accessibility\ud83d\udea6of data in an organization. \ud83d\udc49\ud83c\udffbGRC (Governance - Risk - Compliance) helps to align data with business goals, comply with regulations, and optimize data-driven...",
+      "topics": [
+        "Enterprise AI",
+        "Responsible AI",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "A weekend\ud83d\udca1brainstorm for my team...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7098805750168240128/",
+      "kind": "post",
+      "summary": "\ud83d\udc4bA simple way to make\ud83e\udd16chatbots\ud83e\udd16more personal is to use internal data, embeddings and NLG\ud83d\udde3 \ud83d\udc49Check out the starter architecture. Stay tuned!\ud83d\udcab               ... more",
+      "topics": [
+        "Agents",
+        "Leadership",
+        "Architecture"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "AI altruism\ud83e\udd16: designing AI for others' benefit, not just own goals. It can improve fairness, privacy, and social good\ud83c\udf0e",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7097386690935222272/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Responsible AI"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "For all students graduating or looking for internship opportunities.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7094325139068104705/",
+      "kind": "post",
+      "summary": "For all students graduating or looking for internship opportunities.",
+      "topics": [],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "According to one of my @ex-colleagues - \"Moving to the cloud will solve most of your data problems and improve your machine...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7092902008176726017/",
+      "kind": "post",
+      "summary": "\u21a0 While his statement is __true__, getting there was not an easy road. We faced a few key challenges as we successfully transitioned to building and serving ML projects on the cloud: \u2728Collaboration\u2728 Data security and privacy\ud83d\udd12: ensuring compliance with...",
+      "topics": [
+        "Architecture",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "While Machine Learning\ud83d\ude80and \ud83d\udccaAnalytics\ud83d\udcc8projects can be complex and challenging, they can be accomplished in the cloud with the...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7091816893497442305/",
+      "kind": "post",
+      "summary": "Cloud \u2601\ufe0fplatforms do offer scalable, secure and cost-effective solutions for ML & Analytics workflows, from data collection and preprocessing to training, deployment and tracking. But, to successfully integrate ML/Analytics projects into your \ud83e\udd80workstream,...",
+      "topics": [
+        "Leadership",
+        "Architecture",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Spent some time this weekend learning about the safety guidelines which need to be implemented in every ML app development phase...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7088763965261959168/",
+      "kind": "post",
+      "summary": "@MicrosoftLearn journey!             ... more",
+      "topics": [
+        "Responsible AI",
+        "MLOps",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Last weekend, I tried to tell my 8yrs old nephew that I teach computers to do cool things, like playing games or recognizing...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7087131869904830465/",
+      "kind": "post",
+      "summary": "I said no because that would be cheating\ud83d\ude1c He said he doesn\u2019t want to learn about machine learning and AI then. He said he wants to learn about dinosaurs\ud83e\udd96and rockets instead\ud83d\ude80 So, I thought of writing about Deep Learning - from child\u2019s play\ud83d\udc7bto scientific...",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Why are data scientists getting so excited about CatBoost?\ud83d\ude80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7084331919475146752/",
+      "kind": "post",
+      "summary": "A few factsi: Yandex's open-source machine learning algorithm since 2017. It can be used for a variety of tasks, such as recommendations, searches, and forecasting. This is a high-performance machine-learning model with default and tuned parameters. \u2022...",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Check out this job at Intact: Data Science \u2013 4 Month Co-op/Internship (Fall 2023)",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7084212850646282240/",
+      "kind": "post",
+      "summary": "Check out this job at Intact: Data Science \u2013 4 Month Co-op/Internship (Fall 2023)",
+      "topics": [],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "I'm on a learning spree. \ud83e\udd80\ud83e\udd80\ud83e\udd80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7080299104777498624/",
+      "kind": "post",
+      "summary": "Goal Achieved: Completed the Google (PaLM\ud83e\udd16) and Microsoft (ChatGPT\ud83e\udd16) frameworks for my next use case application. Today I earned my \"Develop Generative AI Solutions with Azure OpenAI Service\" trophy! @Team - start your own @MicrosoftLearn journey! Wishing...",
+      "topics": [
+        "Leadership",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "I have successfully finished the Generative AI Fundamentals course from Google Cloud. This course teaches the basics of...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7079944708063465472/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Leadership",
+        "Architecture",
+        "Responsible AI"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Responsible AI \ud83e\udd16 is becoming more critical and important as AI technology continues to advance. It's important that we work...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7078922660075765760/",
+      "kind": "post",
+      "summary": "We need to ensure that these systems are transparent and explainable, particularly when they include complex algorithms or advanced machine learning models. It is vital that these systems are fair and unbiased, especially when they are used to make major...",
+      "topics": [
+        "Responsible AI",
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Building and Deploying Machine Learning Solutions on GCP\ud83d\ude80",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7054904413613613056/",
+      "kind": "post",
+      "summary": "Building and Deploying Machine Learning Solutions on GCP\ud83d\ude80",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "I am excited to announce that I have just earned the Google certification for Big Data and Machine Learning. This achievement has...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:7037459186602975232/",
+      "kind": "post",
+      "summary": "I am excited to announce that I have just earned the Google certification for Big Data and Machine Learning. This achievement has not only expanded my knowledge and skills in these cutting-edge technologies but has also validated my expertise in the field.",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "3yr",
+      "earliestPossibleYear": 2022
+    },
+    {
+      "title": "Bell Technology and Digital Careers Event",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6968030587605422081/",
+      "kind": "post",
+      "summary": "Thursday September 15, 2022 (12:15 PM - 4:30 PM EST) Dont miss!       ... more",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Manveer Singh is #hiring. Know anyone who might be interested?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6965722068315238401/",
+      "kind": "post",
+      "summary": "Manveer Singh is #hiring. Know anyone who might be interested?",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "I heard about the Shopify layoffs today. If you know someone who is affected, please do not hesitate to contact me or my team.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6957723967105155072/",
+      "kind": "post",
+      "summary": "We are looking for Data Scientists, Data Engineers and Data Analysts to drive some exciting projects at Bell. Comment or send me a DM. Sifan Jia Arpita Kar, Ph.D Alan-Michael Khalil Mahmud Koulizade Ryan Levman Shaikh Asif      ... more",
+      "topics": [
+        "Leadership"
+      ],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Check out this solid opportunity at Bell: ON - 2022 Customer Operations Graduate Leadership Program, BI Data Science & Developer...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6953701407979974656/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Leadership",
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "I\u2019m #hiring two Data Scientists with advanced Python development skillsets, exceptional knowledge of AI/ML frameworks and...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6949754792231518208/",
+      "kind": "post",
+      "summary": "Nice-to-haves: Cloud experience, teamwork Know anyone who might be interested?           ... more",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Check out this job at Durham College: Full-time Professor- Data Analytics",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6932382482143064064/",
+      "kind": "post",
+      "summary": "You can reach out to me, Thom or Sam",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Check out this job at Bell: Data Analyst Business Intelligence",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6924363113618137088/",
+      "kind": "post",
+      "summary": "Reach out to Manveer...",
+      "topics": [
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Great move Team #google",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6917875026222317568/",
+      "kind": "post",
+      "summary": "Great move Team #google",
+      "topics": [
+        "Leadership",
+        "Enterprise AI"
+      ],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Check out this job at Bell: Advisor, Advanced Analytics",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6900115486659399681/",
+      "kind": "post",
+      "summary": "Reach out to Shaikh Asif   ... more",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "I\u2019m #hiring. Know anyone who might be interested?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6892832118741757952/",
+      "kind": "post",
+      "summary": "I\u2019m #hiring. Know anyone who might be interested?",
+      "topics": [],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "Check out this exciting opportunity in AI/ML space.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6886344088690470912/",
+      "kind": "post",
+      "summary": "I am looking for an expert data scientist with ML cloud solutions development and enablement experience to work with a team of data juggernauts. Know anyone who might be interested?         . Know anyone who might be interested? ... more",
+      "topics": [
+        "Leadership"
+      ],
+      "ageAtCapture": "4yr",
+      "earliestPossibleYear": 2021
+    },
+    {
+      "title": "This video is worth and fun watching\ud83d\ude0a",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6839601247289524224/",
+      "kind": "post",
+      "summary": "Explaining Machine Learning to people with 5 different levels of understanding: 1) A child 2) Teen 3) A college student 4) A grad student 5) An expert     ... more",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "Great opportunity to explore and participate in various AI/ML cool stuffs in Rogers.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6838946927044911104/",
+      "kind": "post",
+      "summary": "Great opportunity to explore and participate in various AI/ML cool stuffs in Rogers.",
+      "topics": [],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "Awesome learning opportunity for fresh graduates and data enthusiasts within Rogers Advanced Analytics Team. Reach out to me if...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6796263049633386496/",
+      "kind": "post",
+      "summary": "Awesome learning opportunity for fresh graduates and data enthusiasts within Rogers Advanced Analytics Team. Reach out to me if this excites you.",
+      "topics": [
+        "Leadership",
+        "Learning"
+      ],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "Today was the last class of the\"Visualizations, Leadership, and Business Communications\" course for winter semester students.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6788649954270412800/",
+      "kind": "post",
+      "summary": "Best wishes to you all, and now, go create something!             ... more",
+      "topics": [
+        "Leadership",
+        "Enterprise AI",
+        "Learning"
+      ],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "durhamcollege #dataanalysis #visualization #powerbi #storytelling #leadership #advancedanalytics #powerofdata",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6777748777928400896/",
+      "kind": "post",
+      "summary": "durhamcollege #dataanalysis #visualization #powerbi #storytelling #leadership #advancedanalytics #powerofdata",
+      "topics": [
+        "Leadership"
+      ],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "UNB #MQIM #quantitativeinvesting",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6760571981063692288/",
+      "kind": "post",
+      "summary": "UNB #MQIM #quantitativeinvesting",
+      "topics": [],
+      "ageAtCapture": "5yr",
+      "earliestPossibleYear": 2020
+    },
+    {
+      "title": "As we are scaling up our AI efforts, this training/certification gives a lot of perspective to exploit Big Data on an optimized...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6671808548378337280/",
+      "kind": "post",
+      "summary": "Thanks to my work-mate, Hossein for the motivation.              ... more",
+      "topics": [
+        "MLOps"
+      ],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "I am familiar with R and Python. But, took the opportunity to learn the Credit Risk Modeling approach using SAS EM/Studio.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6657772158833483776/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "The increased ETF Trading volumes, created by short term investors/traders, are also reflection of the emerging pandemic in...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6655275021067436032/",
+      "kind": "post",
+      "summary": "Did you see? \u00b7 Crypto Traders (Blockchain) got the sense of it first followed by SmallCap and TSX LargeCap. \u00b7 Investors are now taking positions in Healthcare securities and holding them for the price spike for Covid drug/vaccine invention....",
+      "topics": [],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "Took the opportunity in this long weekend to explore some Economic Indicators and tried to understand the Covid-19 effects on the...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6654933989909950464/",
+      "kind": "post",
+      "summary": "Key Indicators used: a) TSX60 b) TSX SmallCap c) Healthcare ETF ('XLV') d) VVIX (CBOE) e) Repo Rate (BOC) d) Unemployment Rate (Canada) Some Quick Insights: a) It all started in February end. b) Worst hit -> Small-Cap sector. b) The expected volatility of the...",
+      "topics": [],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "Some warm ups for the next big project...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6641435838452416512/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "Moving to a scalable direction...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6637830786546495488/",
+      "kind": "post",
+      "summary": "Moving to a scalable direction...",
+      "topics": [],
+      "ageAtCapture": "6yr",
+      "earliestPossibleYear": 2019
+    },
+    {
+      "title": "Why not use an interdisciplinary polar plot to explain seasonality distribution of data/returns?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6581418515725631488/",
+      "kind": "post",
+      "summary": "Here I compared the 10 years' monthly mean total returns of 3 highly correlated ETFs to track the seasonal trend and co-movements. Love to exploit data, discover insights and increase explainability.                   ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Exploited the unstructured data from Reuters - Financial/Markets news headlines and conducted Natural Language Processing (NLP)....",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6579505132281618432/",
+      "kind": "post",
+      "summary": "Interesting to see: oil, saudi, attack - highly discussed. I recently created a predictive model using such an NLP approach.            ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Ontario Teachers' Pension Plan Masters Day 2019 -",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6578100369715449856/",
+      "kind": "post",
+      "summary": "Had a great opportunity to represent the University of New Brunswick as a graduate of Master in Quantitative Investment Management (MQIM) program. Felt priviledged to meet all the like minded people, learn about their inspirational journeys and motivations...",
+      "topics": [
+        "Leadership",
+        "Learning"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "If you want to check out my potential in a quantified way, take a look at my success factors predictions.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6575410301464834048/",
+      "kind": "post",
+      "summary": "If you want to check out my potential in a quantified way, take a look at my success factors predictions.",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Finally took advantage of the long weekend and completed my advanced analytics course in SAS. It's Cool!",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6574048458649456640/",
+      "kind": "post",
+      "summary": "Finally took advantage of the long weekend and completed my advanced analytics course in SAS. It's Cool!",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Canada has the highest volatility (July 2019, #Axioma) in Momentum, Earnings Yield, Leverage, and Growth.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6570691232907972608/",
+      "kind": "post",
+      "summary": "The style factors tend to become more volatile in the Canadian market, making investment decisions solely basis those factors, difficult. Yet it can serve as an important tool to track and maintain the riskiness of your portfolio.             ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "I found Python and R equally efficient in accomplishing my financial data science projects.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6570672369109606400/",
+      "kind": "post",
+      "summary": "Both of them are great tools with neat libraries. I am working on some Deep Learning projects. If any of you want to exchange ideas, feel free to reach out.              ... more",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Some Popular Allocation Strategy Fund Flows - Quarterly basis.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6567483843530498048/",
+      "kind": "post",
+      "summary": "Some insights: Mortgage-Backed Investing at local maxima in 2019 Q1, broadcasting negative sentiment. Happy to see Thematic reviving. Did you notice the inverse relationship: Mortgage-Backed ~ Inflation-Protected?         ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Interesting to see that China picking up, while investment sentiment in Canada is steady and progressive. Germany is having some...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6566762807952453632/",
+      "kind": "post",
+      "summary": "Plot generated using Python 3 and BQNT                 ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Quite enlightening presentations on #tensorflow by Ehsan and Vik. Thanks Devatanu and TensorFlow User Group Toronto for hosting...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6537160058260770816/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Took the opportunity to participate in the Bloomberg Toronto BQuant seminar today to get a hands-on Bloomberg\u2019s latest Python...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6534559434453114880/",
+      "kind": "post",
+      "summary": "A big shout out to Robert and Genario.                ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Quantamental Investing (Synopsis) #trending",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6527776308762599424/",
+      "kind": "post",
+      "summary": "Human-driven security analysis, portfolio management, and asset allocation will always have a place in investing, but over time, it will be more integrated with technical concepts and statistical analysis to find alpha generative opportunities. Striking this...",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Are you interested in ESG analysis and work on portfolio-ESG integration?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6525775044122071040/",
+      "kind": "post",
+      "summary": "So am I. Why not try some ML integration techniques? Check out this recent article/findings from UNPRI.                      ... more",
+      "topics": [
+        "Responsible AI"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "A 'R' programmer stepping into the world of 'Python'.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6524799059339853824/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Fundamental Factor Model - OLS vs GLS(WLS) factor return estimates.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6521834873995481088/",
+      "kind": "post",
+      "summary": "Ref: my last post                       ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Using the Fundamental Factor Model on MSCI Barra USE3 (3 Industry + 2 style factors) on 22 DJIA stocks to regress in OLS and WLS...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6520311187689783296/",
+      "kind": "post",
+      "summary": "... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Created this dynamic risk model on R.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6517946638797987840/",
+      "kind": "post",
+      "summary": "User Guide: Available It can calculate and generate a one page risk summary every time when you update your holding weights, date, number of principal components you want and the capital. Please note there are some error in VaR calculation. Refer the updated...",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Thanks #Bloomberg.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6506334485498327040/",
+      "kind": "post",
+      "summary": "Great learning session on the \u201cPORT\u201d function - hosted by Constantin (Coco)\u263a\ufe0f at Bloomberg - Toronto office.         ... more",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "It was a great experience participating in the Rotman International Trading Competition 2019. #RITC",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6505473912376221696/",
+      "kind": "post",
+      "summary": "The best part was the chance to meet peers from universities across the globe and learn their approaches to quantitative investment management strategies.     ... more",
+      "topics": [
+        "Learning"
+      ],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "For optimal execution of orders, I think I am going good: #optimization #algotrading #limitorder #tradingstrategy #execution...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6502003181466243072/",
+      "kind": "post",
+      "summary": "For optimal execution of orders, I think I am going good: #optimization #algotrading #limitorder #tradingstrategy #execution #closedformsolution",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Some of the Canadian fixed income instruments' performance(last 18years).",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6501971069186949120/",
+      "kind": "post",
+      "summary": "The rates are gradually merging to experience another drawdown soon?         ... more",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "TMX Options Classes Log Returns - 2018",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6501639235173445632/",
+      "kind": "post",
+      "summary": "Working on volatility modelling...",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "Do you think, for stocks, log returns to be good risk drivers?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6499864380052692992/",
+      "kind": "post",
+      "summary": "Do you think, for stocks, log returns to be good risk drivers?",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "r #volatility #codes #estimates",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6474479265235689472/",
+      "kind": "post",
+      "summary": "\"R\" codes for Yang-Zhang OHLC Volatility Estimator (It is 8-14times efficient volatility estimator) getSymbols(\"AAPL\",from=\"2007-01-03\",to=\"2015-04-30\") head(aapl_ret) aapl_ret = diff(log(AAPL))[-1] appl_ret_n = aapl_ret[1:63] appl_ret_o =...",
+      "topics": [],
+      "ageAtCapture": "7yr",
+      "earliestPossibleYear": 2018
+    },
+    {
+      "title": "The largest fundraising effort in UNB\u2019s history.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6456336377561833472/",
+      "kind": "post",
+      "summary": "The largest fundraising effort in UNB\u2019s history.",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "I am lucky to be a part of the MQIM - Master in Quantitative Investment Management program.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6454349512604418048/",
+      "kind": "post",
+      "summary": "This is the only program in Canada which is focused to generate critical skills for the trending Capital Markets. Thanks to the partnered institutions: Vestcor, SEAMARK Asset Management Ltd., TMX Group                  ... more",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "It\u2019s time to unite customer data from all channels into one single database, accessible in real-time to create the UNIFIED...",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6344205132913307648/",
+      "kind": "post",
+      "summary": "Ref: Chris Papandropoulos",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Reference: @Data Analytics & Big Data Forum - Canada",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6342386160765112320/",
+      "kind": "post",
+      "summary": "https://goo.gl/fcwcge",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "BLOCKCHAIN Advantage\ud83d\udcaa",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6342027285142564864/",
+      "kind": "post",
+      "summary": "Security + Transperancy + Accountability = Efficiency of Evironmental Projects Delivery/Implementation",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Is a delightful Customer Experience - The Key?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6338393039018528768/",
+      "kind": "post",
+      "summary": "Is a delightful Customer Experience - The Key?",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "A very simple explanation to A/B Testing vs Multivariate Testing",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6337656622621523968/",
+      "kind": "post",
+      "summary": "A very simple explanation to A/B Testing vs Multivariate Testing",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "How does a strong, well knitted and successful Marketing Strategy influence a firm's performance",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6336548300036104192/",
+      "kind": "post",
+      "summary": "How does a strong, well knitted and successful Marketing Strategy influence a firm's performance",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "How ready are you to integrate AI in your marketing efforts?",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6336211164346847232/",
+      "kind": "post",
+      "summary": "How ready are you to integrate AI in your marketing efforts?",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Customer Re-engagement Tactics -3",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6334049294567473152/",
+      "kind": "post",
+      "summary": "(Such an interesting advertisement)",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Customer Re-engagement Tactics -2",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6333695613816926208/",
+      "kind": "post",
+      "summary": "Customer Re-engagement Tactics -2",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Customer Re-engagement Tactics -1",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6333340432516382720/",
+      "kind": "post",
+      "summary": "Customer Re-engagement Tactics -1",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    },
+    {
+      "title": "Adapting Classic Marketing Models to Examine - The Pricing Strategy",
+      "url": "https://www.linkedin.com/feed/update/urn:li:share:6330511115663052800/",
+      "kind": "post",
+      "summary": "Adapting Classic Marketing Models to Examine - The Pricing Strategy",
+      "topics": [],
+      "ageAtCapture": "8yr",
+      "earliestPossibleYear": 2017
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="Page not found | Ritwick Dutta" description="This page could not be found. Explore Ritwick Dutta's work, writing, and AI leadership experience." noIndex>
+  <section class="container not-found" id="top">
+    <p class="eyebrow">404 / A DIFFERENT DIRECTION</p>
+    <h1>That page isn't here.<br /><em>The work still is.</em></h1>
+    <p>The link may have changed. Head back to explore the portfolio.</p>
+    <a class="button button-dark" href={base}>Back to home<span aria-hidden="true">&rarr;</span></a>
+  </section>
+</Layout>

@@ -1,0 +1,57 @@
+---
+import type { Project } from "../data/portfolio";
+interface Props { variant: Project["visual"]; }
+const { variant } = Astro.props;
+---
+
+<div class={`project-visual visual-${variant}`} aria-hidden="true">
+  {variant === "llmops" && (
+    <>
+      <span class="visual-kicker">FROM EXPERIMENT TO OPERATION</span>
+      <div class="mini-pipeline">
+        <span><b>01</b>Evaluate</span><i>&rarr;</i>
+        <span><b>02</b>Compare</span><i>&rarr;</i>
+        <span class="pipeline-final"><b>03</b>Release</span>
+      </div>
+      <span class="visual-footnote">QUALITY IS A RELEASE DECISION.</span>
+    </>
+  )}
+  {variant === "safety" && (
+    <>
+      <span class="visual-kicker">TRUST, WITH EVIDENCE</span>
+      <div class="safety-graphic">
+        <div class="safety-shield"><svg viewBox="0 0 60 68"><path d="M30 4 53 14v18c0 16-12 26-23 32C19 58 7 48 7 32V14Z" /><path d="m19 33 8 8 15-17" /></svg></div>
+        <div class="safety-bars"><span>Test<i></i></span><span>Score<i></i></span><span>Review<i></i></span></div>
+      </div>
+      <span class="visual-footnote">PROBE. UNDERSTAND. IMPROVE.</span>
+    </>
+  )}
+  {variant === "mlops" && (
+    <>
+      <span class="visual-kicker">THE COMPLETE MODEL LIFECYCLE</span>
+      <div class="mlops-cycle"><span>Train</span><span>Track</span><strong>ML<br />Ops</strong><span>Monitor</span><span>Deploy</span></div>
+      <span class="visual-footnote">A MODEL IS ONLY THE BEGINNING.</span>
+    </>
+  )}
+  {variant === "documents" && (
+    <>
+      <span class="visual-kicker">SOURCE-GROUNDED INTELLIGENCE</span>
+      <div class="document-graphic"><div class="document-paper"><i></i><i></i><div class="document-chart"><b></b><b></b><b></b><b></b></div></div><span class="document-evidence">Source<br />Evidence<br /><b>Review</b></span></div>
+      <span class="visual-footnote">THE VALUE. AND WHERE IT CAME FROM.</span>
+    </>
+  )}
+  {variant === "campaign" && (
+    <>
+      <span class="visual-kicker">HUMAN CONTROL, BY DESIGN</span>
+      <div class="campaign-graphic"><span class="campaign-letter"><svg viewBox="0 0 64 48"><rect x="2" y="2" width="60" height="44" rx="5" /><path d="m3 4 29 23L61 4" /></svg></span><div><span>Draft <i>&check;</i></span><span>Preview <i>&check;</i></span><span>Approve <i>&check;</i></span></div></div>
+      <span class="visual-footnote">CAPABILITY MEETS CONSENT.</span>
+    </>
+  )}
+  {variant === "chat" && (
+    <>
+      <span class="visual-kicker">EXPERIMENTING IN THE OPEN</span>
+      <div class="chat-graphic"><span>Start with a question.<i></i></span><span>Explore what is possible.<i></i><i></i></span></div>
+      <span class="visual-footnote">OPEN MODEL. BUILDER'S MINDSET.</span>
+    </>
+  )}
+</div>
