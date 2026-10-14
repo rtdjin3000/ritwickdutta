@@ -73,7 +73,9 @@ If a source export lacks some permalinks, a second argument may provide independ
 
 ## Launch at ritwickdutta.com with low ongoing costs
 
-The site is prepared for `https://ritwickdutta.com/`. The domain was registered at Spaceship on October 13, 2026, and the public source repository is [rtdjin3000/ritwickdutta](https://github.com/rtdjin3000/ritwickdutta). Website deployment, DNS connection, and HTTPS verification are in progress; domain registration alone does not make the site live.
+The site is live at **[https://ritwickdutta.com/](https://ritwickdutta.com/)**. The domain was registered at Spaceship on October 13, 2026, and the public source repository is [rtdjin3000/ritwickdutta](https://github.com/rtdjin3000/ritwickdutta).
+
+GitHub Pages deployment succeeded. Domain ownership is verified, the Spaceship DNS records point to GitHub, and Enforce HTTPS is enabled. Public checks confirmed all eight indexable pages, the 151-entry writing archive, sitemap, robots.txt, and the real 1200 x 630 social preview. Both HTTP and `www` redirect to the canonical HTTPS apex domain; certificate validation was not bypassed.
 
 For a standard, non-premium `.com`, these annual renewal quotes were checked on October 13, 2026. Prices are in USD, including the ICANN fee and excluding taxes:
 
