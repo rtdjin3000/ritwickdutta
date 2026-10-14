@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import brandLogo from "../assets/brand-logo.png";
 import ProjectVisual from "../components/ProjectVisual.astro";
 import { profile, projects, career, leadership } from "../data/portfolio";
 import { featuredArticles, articles } from "../data/articles";
@@ -133,7 +135,7 @@ const base = import.meta.env.BASE_URL;
   </section>
 
   <section class="about-section container" id="about" aria-labelledby="about-title">
-    <div class="about-heading"><p class="eyebrow section-number">04 / A LITTLE ABOUT ME</p><h2 id="about-title">A builder's mindset.<br /><em>A leader's perspective.</em></h2><span class="about-monogram" aria-hidden="true">rd<span>+</span></span></div>
+    <div class="about-heading"><p class="eyebrow section-number">04 / A LITTLE ABOUT ME</p><h2 id="about-title">A builder's mindset.<br /><em>A leader's perspective.</em></h2><Image src={brandLogo} alt="" class="about-logo" width={160} height={100} widths={[160, 320]} sizes="160px" format="webp" loading="lazy" /></div>
     <div class="about-copy">
       <p class="about-intro">My work connects the rigor of architecture with the realities of people, products, and adoption.</p>
       <p>I've built AI assistants, led enterprise AI and data portfolios, and advised regulated organizations on the path toward production-ready GenAI. Today, I bring that experience to customer architecture at Microsoft.</p>

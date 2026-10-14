@@ -54,6 +54,24 @@ for (const route of routes) {
   assert.ok(image.pathname.endsWith(".png"));
   assert.equal(meta(html, "og:image:width"), "1200");
   assert.equal(meta(html, "og:image:height"), "630");
+  const brandImages = [...html.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0])
+    .filter((tag) => attribute(tag, "class") === "brand-logo");
+  assert.equal(brandImages.length, 2, `Header and footer logos are required in ${route}`);
+  for (const image of brandImages) {
+    const src = attribute(image, "src");
+    assert.ok(src?.startsWith(base));
+    assert.ok((await stat(routeFile(new URL(src, origin).pathname))).size > 0);
+  }
+  for (const [relation, expectedSize] of [["icon", 32], ["apple-touch-icon", 180]]) {
+    const iconTag = [...html.matchAll(/<link\b[^>]*>/gi)].map((match) => match[0]).find((tag) => attribute(tag, "rel") === relation);
+    assert.ok(iconTag, `Missing ${relation} in ${route}`);
+    const iconHref = attribute(iconTag, "href");
+    assert.ok(iconHref);
+    const icon = await readFile(routeFile(new URL(iconHref, origin).pathname));
+    assert.equal(icon.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(icon.readUInt32BE(16), expectedSize);
+    assert.equal(icon.readUInt32BE(20), expectedSize);
+  }
 
   const ids = [...html.matchAll(/\bid=["']([^"']+)["']/g)].map((match) => match[1]);
   assert.equal(new Set(ids).size, ids.length, `Duplicate IDs in ${route}`);

@@ -1,6 +1,11 @@
 ---
-import { getImage } from "astro:assets";
-import socialCard from "../assets/social-card.svg";
+import { Image, getImage } from "astro:assets";
+import socialCard from "../assets/social-card.png";
+import brandLogo from "../assets/brand-logo.png";
+import brandIcon from "../assets/brand-icon.png";
+import "@fontsource-variable/figtree";
+import "@fontsource-variable/source-serif-4/standard.css";
+import "@fontsource-variable/source-serif-4/standard-italic.css";
 import { profile } from "../data/portfolio";
 import "../styles/global.css";
 
@@ -23,6 +28,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const personId = new URL(`${base}#ritwick-dutta`, Astro.site).href;
 const socialImage = await getImage({ src: socialCard, format: "png", width: 1200, height: 630 });
 const socialImageUrl = new URL(socialImage.src, Astro.site).href;
+const favicon = await getImage({ src: brandIcon, format: "png", width: 32, height: 32 });
+const touchIcon = await getImage({ src: brandIcon, format: "png", width: 180, height: 180 });
 const person = {
   "@type": "Person",
   "@id": personId,
@@ -53,7 +60,8 @@ const structuredData = {
     <meta name="theme-color" content="#f6f6ef" />
     <meta name="robots" content={import.meta.env.DEV || noIndex ? "noindex, nofollow" : "index, follow"} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <link rel="icon" href={favicon.src} type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href={touchIcon.src} sizes="180x180" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -77,7 +85,7 @@ const structuredData = {
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href={base} aria-label="Ritwick Dutta - home">
-          <span class="brand-mark" aria-hidden="true">rd<span></span></span>
+          <Image src={brandLogo} alt="" class="brand-logo" width={72} height={45} widths={[72, 144]} sizes="72px" format="webp" loading="eager" />
           <span>Ritwick Dutta<span class="brand-caption">APPLIED AI & CUSTOMER SOLUTIONS</span></span>
         </a>
         <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-navigation" hidden>
@@ -97,7 +105,10 @@ const structuredData = {
     </main>
     <footer class="site-footer">
       <div class="container footer-top">
-        <a class="footer-name" href={base}>Ritwick Dutta<span>AI leadership. Real-world delivery.</span></a>
+        <a class="footer-brand" href={base} aria-label="Ritwick Dutta - home">
+          <Image src={brandLogo} alt="" class="brand-logo" width={72} height={45} widths={[72, 144]} sizes="72px" format="webp" loading="lazy" />
+          <span class="footer-name">Ritwick Dutta<span>AI leadership. Real-world delivery.</span></span>
+        </a>
         <nav class="footer-links" aria-label="Social profiles">
           <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <span class="sr-only">(opens in a new tab)</span><span aria-hidden="true">&nearr;</span></a>
           {profile.github.map((account) => (
@@ -112,6 +123,7 @@ const structuredData = {
       </div>
     </footer>
     <script>
+      import "../scripts/motion";
       const toggle = document.querySelector<HTMLButtonElement>("[data-menu-toggle]");
       const navigation = document.querySelector<HTMLElement>("#site-navigation");
       const label = document.querySelector<HTMLElement>("[data-menu-label]");

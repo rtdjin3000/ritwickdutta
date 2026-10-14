@@ -11,15 +11,19 @@
     "check": "astro check",
     "test": "node --experimental-strip-types --test",
     "build": "astro build",
+    "brand:prepare": "node scripts/prepare-brand.mjs",
     "verify:build": "node --experimental-strip-types scripts/verify-build.mjs",
     "verify": "npm run check && npm test && npm run build && npm run verify:build",
     "preview": "astro preview --host 127.0.0.1"
   },
   "dependencies": {
-    "astro": "6.4.8"
+    "astro": "6.4.8",
+    "@fontsource-variable/figtree": "5.3.0",
+    "@fontsource-variable/source-serif-4": "5.3.1"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
+    "sharp": "0.34.5",
     "typescript": "6.0.3"
   },
   "overrides": {

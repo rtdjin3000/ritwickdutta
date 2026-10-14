@@ -1,6 +1,6 @@
 # Ritwick Dutta - personal AI portfolio
 
-An original, articles-first personal website for **AI leadership and customer solution leadership**. Built with Astro and TypeScript, without a client framework, visitor tracking, external fonts, or a backend. Articles lead the homepage and are selected by default in the archive; original posts are supporting material.
+An original, articles-first personal website for **AI leadership and customer solution leadership**. Built with Astro and TypeScript, without a client framework, visitor tracking, externally requested fonts, or a backend. Articles lead the homepage and are selected by default in the archive; original posts are supporting material.
 
 ## Run locally
 
@@ -32,7 +32,21 @@ The production output is `dist`. Development pages are marked `noindex`; product
 - `src/data/articles.ts`: 21 published articles recovered from Ritwick's LinkedIn article archive, including source links and editorial summaries.
 - `src/data/linkedin-posts.json`: 130 recovered original posts within the confirmed 2017+ window, containing only publication links and short excerpts.
 - `src/data/writing.ts`: combined writing archive. All entries are rendered into HTML; search, format filters, and incremental display progressively enhance it.
-- `src/assets/social-card.svg`: original artwork rasterized into a 1200 x 630 PNG for social previews.
+- `src/assets/brand-logo.png`: the supplied RD logo, with only excess outer whitespace removed and image metadata stripped.
+- `src/assets/brand-icon.png`: square version for the favicon and Apple touch icon.
+- `src/assets/social-card.svg` and `src/assets/social-card.png`: original social artwork and the 1200 x 630 branded image.
+- `src/scripts/motion.ts`: progressive entry animations. Content is never hidden while waiting for JavaScript; focused content and reduced-motion preferences are respected.
+
+Typography uses locally served **Figtree Variable** for interface/body text and **Source Serif 4 Variable** for editorial headings. Font licenses are included under `public/font-licenses`. No Google Fonts or other third-party font requests are made. Motion is limited to short viewport-entry fades, subtle hover feedback, and slow decorative background movement; reduced-motion mode disables it.
+
+To regenerate branding from an updated original image:
+
+```powershell
+npm run brand:prepare -- 'C:\path\to\original-logo.jpeg'
+npm run verify
+```
+
+The preparation command trims only background whitespace, keeps the full mark, strips original image metadata, and produces the header/footer/about logo, icon, and social preview. The original Downloads file is not edited or published.
 
 The supplied resume PDF, phone number, financial figures, private repositories, confidential-marked material, LinkedIn drafts, and private analytics are **not published**. Customer deployments and financial impact are not invented. Project briefs distinguish workshops, demos, applications, and prototypes; the chart prototype's documented deployment limitation remains explicit.
 
@@ -151,4 +165,4 @@ Example launch post, **only once the site is live**:
 
 ## Implementation notes
 
-The `unifont` override holds a compatible release for the available Node 22.18 environment; the newer transitive release requires Node 22.19 even though Astro's declared minimum is 22.12. No external fonts are used. SVG rasterization is enabled only to process the repository's own trusted social-card artwork; do not introduce untrusted SVG input.
+The `unifont` override holds a compatible release for the available Node 22.18 environment; the newer transitive release requires Node 22.19 even though Astro's declared minimum is 22.12. Fonts are self-hosted. SVG rasterization is enabled only to process the repository's own trusted social-card artwork; do not introduce untrusted SVG input.

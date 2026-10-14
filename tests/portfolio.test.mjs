@@ -5,6 +5,7 @@ import { projectFilters, isProjectFilter, isWritingFilter, matchesProject, match
 import { projects, profile, career } from "../src/data/portfolio.ts";
 import { articles, featuredArticles } from "../src/data/articles.ts";
 import { earliestYearFromAge } from "../src/lib/dates.ts";
+import sharp from "sharp";
 
 test("project filters have the exact advertised counts", () => {
   const counts = Object.fromEntries(projectFilters.map((filter) => [filter.id, projects.filter((project) => matchesProject(project.categories, filter.id)).length]));
@@ -92,4 +93,18 @@ test("profile and career content preserve the agreed privacy boundaries", () => 
   assert.equal(career.filter((role) => role.current).length, 1);
   const publicContent = JSON.stringify({ profile, career, projects });
   assert.doesNotMatch(publicContent, /647-248|\$3M|\$30M|\$15M|10,000 RGU|Resume\.pdf/i);
+});
+
+test("supplied branding assets are correctly sized and contain no original photo metadata", async () => {
+  for (const name of ["brand-logo.png", "brand-icon.png", "social-card.png"]) {
+    const image = await readFile(new URL(`../src/assets/${name}`, import.meta.url));
+    const metadata = await sharp(image).metadata();
+    assert.equal(metadata.format, "png");
+    assert.equal(metadata.exif, undefined);
+    assert.equal(metadata.iptc, undefined);
+    assert.equal(metadata.xmp, undefined);
+    if (name === "brand-icon.png") assert.deepEqual([metadata.width, metadata.height], [256, 256]);
+    if (name === "social-card.png") assert.deepEqual([metadata.width, metadata.height], [1200, 630]);
+    if (name === "brand-logo.png") assert.ok(metadata.width > metadata.height && metadata.width >= 700);
+  }
 });
